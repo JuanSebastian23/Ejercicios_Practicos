@@ -191,5 +191,25 @@ CRUD básico de estudiantes con React, TypeScript, Bootstrap y Node.js.
 - Confirmación visual de acciones
 - API REST con endpoints para todas las operaciones
 
+## 15. Manejador de Errores Global
+
+Sistema de manejo de errores global para capturar y mostrar mensajes de error de la API de Node.js.
+
+![Error Handler](./error-handler/src/assets/img/error.png)
+
+- Frontend: React + TypeScript + Axios + Bootstrap
+- Backend: Node.js + Express con múltiples tipos de errores
+- Context API para manejo global de errores
+- Error Boundary para capturar errores de React
+- Toast de errores con notificaciones flotantes
+- Registro completo de historial de errores
+- Interceptor de Axios para errores de API
+- Manejo de diferentes códigos HTTP (400, 404, 409, 500)
+- Errores de conexión y timeout
+- Timestamps y códigos de error personalizados
+- Botones de prueba para diferentes escenarios de error
+- Gestión de usuarios con validaciones
+
+
 
 

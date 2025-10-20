@@ -1,0 +1,104 @@
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-primary:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+.btn-secondary {
+  background-color: #666666;
+  border-color: #666666;
+}
+
+.btn-secondary:hover {
+  background-color: #888888;
+  border-color: #888888;
+}
+
+.btn-danger {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-danger:hover {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+.alert {
+  border-color: #000000;
+}
+
+.alert-danger {
+  background-color: #f8f9fa;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.form-control {
+  border-color: #000000;
+  color: #000000;
+}
+
+.form-control:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.25);
+}
+
+.card {
+  border-color: #000000;
+}
+
+.card-header {
+  background-color: #000000;
+  color: #ffffff;
+  border-bottom: 1px solid #000000;
+}
+
+.list-group-item {
+  border-color: #000000;
+}
+
+.badge {
+  background-color: #000000;
+}
+
+.error-toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  min-width: 300px;
+  max-width: 500px;
+  animation: slideIn 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.error-log {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.error-item {
+  border-left: 4px solid #000000;
+  padding-left: 10px;
+  margin-bottom: 10px;
+}
