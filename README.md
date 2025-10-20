@@ -106,3 +106,19 @@ Aplicación con filtro de búsqueda en tiempo real sobre una lista obtenida desd
 - Estados de carga y error
 - Mensaje cuando no hay coincidencias
 
+## 10. Formulario No Controlado con useRef
+
+Formulario no controlado en React usando `useRef` con tipado TypeScript.
+
+![Formulario No Controlado](./formulario-nocontrolado/src/assets/img/formularion.png)
+
+- Formulario no controlado con useRef
+- Referencias tipadas para cada input
+- Campos: nombre, email, teléfono, edad, mensaje
+- Acceso directo al DOM sin estado controlado
+- Botones enviar y limpiar
+- Almacenamiento de datos enviados con timestamp
+- Visualización de registros en tarjetas
+- Eliminación individual de registros
+- Contador de registros guardados
+
