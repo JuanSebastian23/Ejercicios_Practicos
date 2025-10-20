@@ -122,3 +122,22 @@ Formulario no controlado en React usando `useRef` con tipado TypeScript.
 - Eliminación individual de registros
 - Contador de registros guardados
 
+## 11. Sistema de Autenticación con JWT
+
+Sistema de autenticación completo con JSON Web Tokens (JWT). Backend en Node.js y frontend en React.
+
+![Autenticación JWT](./auth-jwt/src/assets/img/jwt.png)
+
+- Frontend: React + TypeScript + Axios + Bootstrap
+- Backend: Node.js + Express + JWT + bcryptjs
+- Registro de usuarios con validación
+- Login con autenticación segura
+- Contraseñas encriptadas con bcrypt
+- Generación y validación de tokens JWT
+- Rutas protegidas con middleware
+- Dashboard con perfil de usuario autenticado
+- Acceso a datos protegidos con token
+- Persistencia de sesión con localStorage
+- Manejo de errores y estados de carga
+- Tokens con expiración (1 hora)
+
