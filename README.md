@@ -26,5 +26,4 @@ Lista de tareas con estado global usando Context API y TypeScript.
 - Context API para estado global
 - Agregar, completar y eliminar tareas
 - Contador de tareas activas y completadas
-- Diseño en blanco y negro
 - Persistencia en memoria durante la sesión
