@@ -38,3 +38,16 @@ Temporizador regresivo con custom hook en TypeScript.
 - Control de tiempo: iniciar, pausar y reiniciar
 - Input para establecer tiempo personalizado
 - Formato de tiempo MM:SS
+
+## 5. Tabla de Usuarios
+
+Tabla de usuarios con datos obtenidos desde una API REST creada con Node.js y Express.
+
+![Tabla de Usuarios](./tabla/src/assets/img/tabla.png)
+
+- Frontend: React + TypeScript + Bootstrap
+- Backend: Node.js + Express
+- Fetch de datos desde API REST
+- Estados de carga y manejo de errores
+- Avatares de usuarios
+- Badges de estado activo/inactivo
