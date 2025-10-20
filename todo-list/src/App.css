@@ -1,0 +1,145 @@
+#root {
+  width: 100%;
+}
+
+.todo-card {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.todo-header {
+  background: linear-gradient(135deg, #2d2d2d 0%, #000000 100%);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.todo-body {
+  background: #ffffff;
+  padding: 2rem;
+}
+
+.input-todo {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px 0 0 12px;
+  transition: all 0.3s;
+}
+
+.input-todo:focus {
+  border-color: #000000;
+  box-shadow: none;
+}
+
+.btn-add {
+  background: #000000;
+  color: white;
+  border: none;
+  border-radius: 0 12px 12px 0;
+  padding: 0 2rem;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-add:hover {
+  background: #333333;
+  color: white;
+  transform: scale(1.02);
+}
+
+.todo-stats {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.todo-stats .badge {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+}
+
+.empty-state {
+  color: #999;
+  font-size: 1.1rem;
+}
+
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+}
+
+.todo-item:hover {
+  background: #e9ecef;
+  border-color: #dee2e6;
+}
+
+.todo-item.completed {
+  background: #e8e8e8;
+  opacity: 0.7;
+}
+
+.todo-item .form-check {
+  flex: 1;
+  margin: 0;
+}
+
+.todo-item .form-check-input {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid #666;
+  cursor: pointer;
+}
+
+.todo-item .form-check-input:checked {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.todo-item .form-check-label {
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding-left: 0.5rem;
+  user-select: none;
+}
+
+.todo-item.completed .form-check-label {
+  text-decoration: line-through;
+  color: #666;
+}
+
+.btn-delete {
+  background: transparent;
+  border: none;
+  color: #666;
+  font-size: 2rem;
+  line-height: 1;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+  font-weight: 300;
+}
+
+.btn-delete:hover {
+  background: #000000;
+  color: white;
+  transform: scale(1.1);
+}
