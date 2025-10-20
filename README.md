@@ -141,3 +141,20 @@ Sistema de autenticación completo con JSON Web Tokens (JWT). Backend en Node.js
 - Manejo de errores y estados de carga
 - Tokens con expiración (1 hora)
 
+## 12. Custom Hook useApi
+
+Hook personalizado en TypeScript para manejar llamadas a APIs con estados de loading, error y data.
+
+![Custom Hook useApi](./custom-hook-api/src/assets/img/hook-api.png)
+
+- Custom hook genérico `useApi<T>` con TypeScript
+- Estados de loading, error y data tipados
+- Función refetch para recargar datos
+- Consumo de JSONPlaceholder API (posts y users)
+- Alternancia entre diferentes endpoints
+- Componentes reutilizables: LoadingSpinner, ErrorMessage, PostCard, UserRow
+- Manejo completo de ciclo de vida de peticiones
+- Grid responsivo para posts
+- Tabla para usuarios
+- Diseño minimalista en blanco y negro
+
