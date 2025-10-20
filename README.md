@@ -64,3 +64,17 @@ Catálogo de productos consumiendo datos de una API REST con Axios.
 - Grid responsivo de productos
 - Tarjetas con imágenes, precios y stock
 - Manejo de estados de carga y errores
+
+## 7. Formulario Dinámico de Estudiantes
+
+Formulario dinámico para registro de múltiples estudiantes con validaciones.
+
+![Formulario Estudiantes](./formulario-estudiantes/src/assets/img/formulario-estudiantes.png)
+
+- Formulario dinámico con TypeScript
+- Validaciones completas de campos
+- Agregar múltiples estudiantes a una lista
+- Eliminar estudiantes individualmente
+- Grid responsivo (formulario y lista)
+- Contador de estudiantes registrados
+
