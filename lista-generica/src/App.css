@@ -1,0 +1,58 @@
+body {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.card {
+  border: 2px solid #000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item {
+  border-color: #dee2e6;
+  background-color: #fff;
+  transition: background-color 0.2s;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-weight: bold;
+  color: #000;
+}
+
+h3 {
+  font-weight: 600;
+  color: #212529;
+  border-bottom: 2px solid #000;
+  padding-bottom: 10px;
+}
+
+h5 {
+  color: #000;
+  font-weight: 600;
+}
+
+p {
+  color: #495057;
+  margin: 0;
+}
+
+.btn-group {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+  font-weight: 500;
+}
+
+.badge {
+  font-size: 0.85rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.alert {
+  border: 1px solid #dee2e6;
+}

@@ -158,3 +158,21 @@ Hook personalizado en TypeScript para manejar llamadas a APIs con estados de loa
 - Tabla para usuarios
 - Diseño minimalista en blanco y negro
 
+## 13. Lista Genérica TypeScript
+
+Componente de lista genérica tipado que puede recibir y renderizar arrays de objetos de cualquier tipo.
+
+![Lista Genérica](./lista-generica/src/assets/img/lista.png)
+
+- Componente genérico `GenericList<T>` con TypeScript
+- Props tipadas: data, renderItem y title
+- Función render personalizable para cada tipo de dato
+- Tres ejemplos implementados: Productos, Usuarios y Libros
+- Interfaces TypeScript para cada tipo (Product, User, Book)
+- Alternancia entre listas con botones
+- Badges informativos (stock, edad, año de publicación)
+- Mensaje cuando no hay datos disponibles
+- Renderizado flexible según el tipo de dato
+- Diseño responsivo con Bootstrap
+
+
