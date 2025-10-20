@@ -1,0 +1,75 @@
+#root {
+  width: 100%;
+}
+
+.contador-card {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.contador-header {
+  background: linear-gradient(135deg, #2d2d2d 0%, #000000 100%);
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.contador-body {
+  background: #ffffff;
+  text-align: center;
+  padding: 3rem;
+}
+
+.contador-numero {
+  font-size: 120px;
+  font-weight: 800;
+  color: #000000;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  line-height: 1;
+  margin-bottom: 3rem;
+}
+
+.btn-contador {
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-incrementar {
+  background: #000000;
+  color: white;
+}
+
+.btn-incrementar:hover {
+  background: #333333;
+  color: white;
+  transform: scale(1.05);
+}
+
+.btn-decrementar {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.btn-decrementar:hover {
+  background: #000000;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+.btn-resetear {
+  background: #666666;
+  color: white;
+}
+
+.btn-resetear:hover {
+  background: #888888;
+  color: white;
+  transform: scale(1.05);
+}
