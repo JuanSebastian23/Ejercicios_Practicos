@@ -175,4 +175,21 @@ Componente de lista genérica tipado que puede recibir y renderizar arrays de ob
 - Renderizado flexible según el tipo de dato
 - Diseño responsivo con Bootstrap
 
+## 14. CRUD de Estudiantes
+
+CRUD básico de estudiantes con React, TypeScript, Bootstrap y Node.js.
+
+![CRUD Estudiantes](./crud-estudiantes/src/assets/img/crud.png)
+
+- Frontend: React + TypeScript + Bootstrap
+- Backend: Node.js + Express
+- Operaciones CRUD completas: Crear, Leer, Actualizar y Eliminar
+- Formulario de registro/edición de estudiantes
+- Tabla con listado de estudiantes
+- Campos: nombre, edad y carrera
+- Edición en línea desde la tabla
+- Confirmación visual de acciones
+- API REST con endpoints para todas las operaciones
+
+
 
