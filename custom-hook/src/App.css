@@ -1,0 +1,129 @@
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #000000 0%, #333333 100%);
+  padding: 20px;
+}
+
+.timer-card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  padding: 3rem;
+  min-width: 400px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.timer-card h1 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.timer-display {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+  margin: 2rem 0;
+  font-family: 'Courier New', monospace;
+  letter-spacing: 0.1em;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-group input {
+  text-align: center;
+  font-size: 1.1rem;
+  border: 2px solid #333333;
+}
+
+.input-group input:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0.1);
+}
+
+.input-group .btn-primary {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.input-group .btn-primary:hover:not(:disabled) {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+.input-group .btn-primary:disabled {
+  background-color: #666666;
+  border-color: #666666;
+}
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  flex: 1;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.btn-success {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.btn-success:hover:not(:disabled) {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+.btn-success:disabled {
+  background-color: #999999;
+  border-color: #999999;
+}
+
+.btn-warning {
+  background-color: #666666;
+  border-color: #666666;
+  color: white;
+}
+
+.btn-warning:hover:not(:disabled) {
+  background-color: #4d4d4d;
+  border-color: #4d4d4d;
+}
+
+.btn-warning:disabled {
+  background-color: #cccccc;
+  border-color: #cccccc;
+}
+
+.btn-danger {
+  background-color: #333333;
+  border-color: #333333;
+}
+
+.btn-danger:hover {
+  background-color: #1a1a1a;
+  border-color: #1a1a1a;
+}
+
+.alert-info {
+  background-color: #f0f0f0;
+  border-color: #333333;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+}

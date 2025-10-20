@@ -27,3 +27,14 @@ Lista de tareas con estado global usando Context API y TypeScript.
 - Agregar, completar y eliminar tareas
 - Contador de tareas activas y completadas
 - Persistencia en memoria durante la sesión
+
+## 4. Custom Hook - Temporizador Regresivo
+
+Temporizador regresivo con custom hook en TypeScript.
+
+![Custom Hook](./custom-hook/src/assets/img/customhook.png)
+
+- Custom hook `useCountdown` para manejar el temporizador
+- Control de tiempo: iniciar, pausar y reiniciar
+- Input para establecer tiempo personalizado
+- Formato de tiempo MM:SS
