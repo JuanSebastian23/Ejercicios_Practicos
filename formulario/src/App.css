@@ -1,0 +1,86 @@
+#root {
+  width: 100%;
+}
+
+.login-card {
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+  border: none;
+}
+
+.login-header {
+  background: linear-gradient(135deg, #2d2d2d 0%, #000000 100%);
+  color: white;
+  text-align: center;
+  padding: 1.5rem 0;
+}
+
+.login-body {
+  background: #ffffff;
+  padding: 3rem;
+}
+
+.input-login {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+
+.input-login:focus {
+  border-color: #000000;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.input-login.is-invalid {
+  border-color: #dc3545;
+}
+
+.input-login.is-invalid:focus {
+  box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
+
+.btn-login {
+  border: none;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.btn-submit {
+  background: #000000;
+  color: white;
+}
+
+.btn-submit:hover {
+  background: #333333;
+  color: white;
+  transform: scale(1.02);
+}
+
+.btn-reset {
+  background: #666666;
+  color: white;
+}
+
+.btn-reset:hover {
+  background: #888888;
+  color: white;
+  transform: scale(1.02);
+}
+
+.success-message {
+  padding: 2rem 0;
+  color: #000000;
+}
+
+.success-message h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.success-message p {
+  font-size: 1.1rem;
+}
