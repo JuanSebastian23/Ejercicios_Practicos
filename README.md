@@ -51,3 +51,16 @@ Tabla de usuarios con datos obtenidos desde una API REST creada con Node.js y Ex
 - Estados de carga y manejo de errores
 - Avatares de usuarios
 - Badges de estado activo/inactivo
+
+## 6. Endpoint - Catálogo de Productos
+
+Catálogo de productos consumiendo datos de una API REST con Axios.
+
+![Endpoint](./endpoint/src/assets/img/endpoint.png)
+
+- Frontend: React + TypeScript + Axios + Bootstrap
+- Backend: Node.js + Express
+- Consumo de API con Axios
+- Grid responsivo de productos
+- Tarjetas con imágenes, precios y stock
+- Manejo de estados de carga y errores
