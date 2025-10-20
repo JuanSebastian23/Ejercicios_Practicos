@@ -89,6 +89,20 @@ Componentes reutilizables con props tipadas en TypeScript.
 - Props requeridas y opcionales
 - Formato de fechas localizado
 - Grid responsivo de cards
-- Diseño en blanco y negro
 - Efectos hover en tarjetas
+
+## 9. Filtro de Búsqueda de Libros
+
+Aplicación con filtro de búsqueda en tiempo real sobre una lista obtenida desde una API de Node.js.
+
+![Filtro de Búsqueda](./filtro-busqueda/src/assets/img/filtro.png)
+
+- Frontend: React + TypeScript + Bootstrap
+- Backend: Node.js + Express
+- Búsqueda en tiempo real por título, autor, género o año
+- Filtrado instantáneo sin botones
+- Contador de resultados filtrados vs totales
+- Tabla responsiva con datos de libros
+- Estados de carga y error
+- Mensaje cuando no hay coincidencias
 
