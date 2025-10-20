@@ -1,0 +1,124 @@
+.app-container {
+  min-height: 100vh;
+  padding: 3rem 1rem;
+}
+
+.main-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.main-header h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+.main-header p {
+  color: #cccccc;
+  font-size: 1.2rem;
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.custom-card {
+  background: white;
+  border: 3px solid #000000;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card-header-custom {
+  background-color: #000000;
+  color: white;
+  padding: 1.5rem;
+  border-bottom: none;
+}
+
+.card-title-custom {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.card-body-custom {
+  padding: 1.5rem;
+  background: white;
+}
+
+.card-description {
+  color: #333333;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+  min-height: 60px;
+}
+
+.card-footer-custom {
+  background-color: #f8f8f8;
+  border-top: 2px solid #000000;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-date {
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.card-badge {
+  background-color: #000000;
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.icon-calendar {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #000000;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M19 4h-1V2h-2v2H8V2H6v2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 16H5V9h14v11z'/%3E%3C/svg%3E") no-repeat center;
+  mask-size: contain;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .main-header h1 {
+    font-size: 2rem;
+  }
+}

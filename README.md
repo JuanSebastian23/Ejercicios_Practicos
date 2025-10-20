@@ -78,3 +78,17 @@ Formulario dinámico para registro de múltiples estudiantes con validaciones.
 - Grid responsivo (formulario y lista)
 - Contador de estudiantes registrados
 
+## 8. Componentes con Props Tipadas
+
+Componentes reutilizables con props tipadas en TypeScript.
+
+![Props Tipadas](./componentes-props/src/assets/img/props.png)
+
+- Componente Card reutilizable
+- Interface TypeScript para props
+- Props requeridas y opcionales
+- Formato de fechas localizado
+- Grid responsivo de cards
+- Diseño en blanco y negro
+- Efectos hover en tarjetas
+
